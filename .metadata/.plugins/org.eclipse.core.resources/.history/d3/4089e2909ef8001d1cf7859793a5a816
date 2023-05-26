@@ -1,9 +1,0 @@
-Feature: faeture to test login functionality 
-
-  @smoketest
-  Scenario:  Check login is succesfull with valid credentials
-    Given browser is open
-    And user is on login page
-    When user enters a username and password 
-    And user hit enter
-    Then user is navigated to home page
