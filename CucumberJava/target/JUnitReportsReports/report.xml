@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="12.735" tests="4" skipped="0" failures="3" errors="0">
+<testcase classname="faeture to test google search functionality" name="Validate google search is working" time="7.103">
+<system-out><![CDATA[
+Given browser is open.......................................................passed
+And user is on google search page...........................................passed
+When user enters a text in search box.......................................passed
+And user hit enter..........................................................passed
+Then user is navigated to search results....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="faeture to test login functionality" name="Check login is succesfull with valid credentials - Example #1.1" time="2.763">
+<failure/>
+<system-out><![CDATA[
+Given browser is open -T1...................................................passed
+And user is on login page -T1...............................................passed
+When user enters a Ram and 12345 -T1........................................undefined
+And user hit enter -T1......................................................skipped
+Then user is navigated to home page -T1.....................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="faeture to test login functionality" name="Check login is succesfull with valid credentials - Example #1.2" time="2.704">
+<failure/>
+<system-out><![CDATA[
+Given browser is open -T1...................................................passed
+And user is on login page -T1...............................................passed
+When user enters a Ele and 12345 -T1........................................undefined
+And user hit enter -T1......................................................skipped
+Then user is navigated to home page -T1.....................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="feature to test login functionality" name="Check login is successful with valid Credentials" time="0.005">
+<failure/>
+<system-out><![CDATA[
+Given user is on login page.................................................undefined
+When user enters username and password......................................skipped
+And clicks on login button..................................................skipped
+Then user is navigated to the home page.....................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,36 @@
+package StepDefinitions;
+
+import io.cucumber.java.en.*;
+
+public class GoogleSearchSteps {
+
+	@Given("browser is oen")
+	public void browser_is_open() {
+		System.out.println("Inside Steps:browser is opne");
+	}
+
+	@And("user is on google search page")
+	public void user_is_on_google_search_page() {
+		System.out.println("Inside Steps: user is in search page");
+
+	}
+
+	@When("user enters a text in search box")
+	public void user_enters_a_text_in_search_box() {
+		System.out.println("Inside Steps: user enetrs a text to search box");
+
+	}
+
+	@And("user hit enter")
+	public void user_hit_enter() {
+		System.out.println("Inside Steps:Hit enter");
+
+	}
+
+	@Then("user is navigated to search results")
+	public void user_is_navigated_to_search_results() {
+		System.out.println("Inside Steps: user is navigated to search results");
+
+	}
+
+}

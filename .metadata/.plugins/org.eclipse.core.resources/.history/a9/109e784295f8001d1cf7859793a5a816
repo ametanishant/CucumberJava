@@ -1,0 +1,36 @@
+package StepDefinitions;
+
+import io.cucumber.java.en.*;
+
+public class GoogleSearchSteps {
+
+	@Given("browser is oen")
+	public void browser_is_open() {
+		System.out.println("broser is opne");
+	}
+
+	@And("user is on google search page")
+	public void user_is_on_google_search_page() {
+		System.out.println("broser is opne");
+
+	}
+
+	@When("user enters a text in search box")
+	public void user_enters_a_text_in_search_box() {
+		System.out.println("broser is opne");
+
+	}
+
+	@And("user hit enter")
+	public void user_hit_enter() {
+		System.out.println("broser is opne");
+
+	}
+
+	@Then("user is navigated to search results")
+	System.out.println("broser is opne");
+
+	public void user_is_navigated_to_search_results() {
+	}
+
+}

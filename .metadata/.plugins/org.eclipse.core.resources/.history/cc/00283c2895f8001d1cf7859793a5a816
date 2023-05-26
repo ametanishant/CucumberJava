@@ -1,0 +1,32 @@
+package StepDefinitions;
+
+import io.cucumber.java.en.*;
+
+public class GoogleSearchSteps {
+
+	@Given("browser is oen")
+	public void browser_is_open() {
+		// Write code here that turns the phrase above into concrete actions
+	}
+
+	@And("user is on google search page")
+	public void user_is_on_google_search_page() {
+		// Write code here that turns the phrase above into concrete actions
+	}
+
+	@When("user enters a text in search box")
+	public void user_enters_a_text_in_search_box() {
+		// Write code here that turns the phrase above into concrete actions
+	}
+
+	@And("user hit enter")
+	public void user_hit_enter() {
+		// Write code here that turns the phrase above into concrete actions
+	}
+
+	@Then("user is navigated to search results")
+	public void user_is_navigated_to_search_results() {
+		// Write code here that turns the phrase above into concrete actions
+	}
+
+}
